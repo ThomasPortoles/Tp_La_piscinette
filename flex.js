@@ -6,11 +6,7 @@ function peepo() {
     const audio = new Audio("./assets/peepo.mp3");
     audio.play();
     console.log("peepo!");
-    isListening = false;
 
-    setTimeout(() => {
-      isListening = true;
-    }, 6000);
   }
 }
 

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Agbalumo";
+  src: url(../font/Agbalumo-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +12,7 @@
 body {
   background: url("./img/pepe.jpg") center/cover;
   height: 100vh;
+  font-family: Agbalumo, sans-serif;
 }
 
 header {
