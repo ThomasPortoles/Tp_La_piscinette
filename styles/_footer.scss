@@ -1,0 +1,22 @@
+footer{
+    .board{
+        color: whitesmoke;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        background: rgba(212, 212, 212, 0.068);
+        padding: 20px 40px;
+        box-shadow: 1px 1px 7px 1px rgb(212, 212, 212);
+        backdrop-filter: blur(2px);
+        position: fixed;
+        bottom: 0px;
+        h3{
+            font-size: 1.5rem;
+        }
+        ul{
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
