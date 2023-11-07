@@ -10,7 +10,6 @@ src: url(../font/Agbalumo-Regular.ttf);
   list-style: none;
 }
 body{
-  background: url("./img/pepe.jpg") center/cover;
-  height: 100vh;
+  background: url("./img/pepe.jpg") center/cover fixed;
   font-family: Agbalumo, sans-serif;
 }

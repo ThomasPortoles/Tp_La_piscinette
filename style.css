@@ -10,8 +10,7 @@
 }
 
 body {
-  background: url("./img/pepe.jpg") center/cover;
-  height: 100vh;
+  background: url("./img/pepe.jpg") center/cover fixed;
   font-family: Agbalumo, sans-serif;
 }
 
@@ -68,8 +67,6 @@ footer .board {
   box-shadow: 1px 1px 7px 1px rgb(212, 212, 212);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  position: fixed;
-  bottom: 0px;
 }
 footer .board h3 {
   font-size: 1.5rem;
@@ -78,4 +75,20 @@ footer .board ul {
   padding: 20px;
   display: flex;
   justify-content: space-around;
+}
+
+section {
+  height: 100vh;
+}
+section p {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+section i {
+  color: whitesmoke;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
